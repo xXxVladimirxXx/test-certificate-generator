@@ -34,6 +34,6 @@ class CertificateController extends Controller
 
     public function show(Certificate $certificate)
     {
-        return view('certificate.pdf', compact('certificate'));
+        return view('certificate.view', compact('certificate'));
     }
 }
